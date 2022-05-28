@@ -1,0 +1,221 @@
+:root {
+    --primary-text-color: #757575;
+    --secondary-text-color: #212121;
+    --white-text-color:#FFFFFF;
+    --hover-text-color: #2196F3;
+    --logo-text-color: #2196F3;
+    --logo-header:#000000;
+    --logo-footer:#FFFFFF;
+    --hero-text-color:#FFFFFF;
+    --footer-contacts-text:rgba(255, 255, 255, 0.6);
+    --white-bgc: #FFFFFF;
+    --primary-bgc: #2F303A;
+    --secondary-bgc: #F5F4FA;
+    --btn-bgc:#2196F3;
+
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    color: var(--primary-text-color);
+    background-color: var(--white-bgc);
+    font-family: roboto, sans-serif;
+}
+
+address {
+    font-style: normal;
+}
+
+/* Хэдэр */
+
+.logo {
+    color: var(--logo-text-color);
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;        
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.logo-black {
+    color: var(--logo-header);
+}
+
+.header-nav {
+    color: var(--secondary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.header-nav:hover, 
+.header-nav:focus {
+    color: var(--hover-text-color);
+}
+
+.header-contacts {
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.header-contacts:hover, 
+.header-contacts:focus {
+    color: var(--hover-text-color);
+}
+
+/* Герой */
+
+.hero {
+    background-color: var(--primary-bgc);
+    text-align: center;
+}
+
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--hero-text-color);
+
+}
+
+.hero-btn {
+    color: var(--hero-text-color);
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;    
+    letter-spacing: 0.06em;
+    background-color: var(--btn-bgc);
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+}
+
+/* Примущества */
+
+.advantages-title {
+    color: var(--secondary-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.advantages-text {
+    font-size: 14px;
+    line-height: 1.71;    
+    letter-spacing: 0.03em;
+}
+
+/* Оформление заголовков для "Чем мы занимаемся" и "Наша команда" */
+
+.benefits-title, .team-title {
+    color: var(--secondary-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+/* Чем мы занимаемся */
+
+/* Наша команда */
+
+.team {
+    background-color: var(--secondary-bgc);
+}
+
+.team-specialist {
+    color: var(--secondary-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.team-profession {
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+/* Футер */
+
+.footer {
+    background-color: var(--primary-bgc);
+}
+
+.logo-white {
+    color: var(--logo-footer);
+}
+
+.footer-address {
+    color: var(--white-text-color);
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+.footer-contacts {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--footer-contacts-text);
+}
+
+/* Портфолио */
+
+.btn {
+    color: var(--secondary-text-color);
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    background-color: var(--secondary-bgc);
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn.current {
+    color: var(--white-text-color);
+    background-color: var(--btn-bgc);
+}
+
+.btn:hover, 
+.btn:focus {
+    color: var(--white-text-color);
+    background-color: var(--btn-bgc);
+}
+
+.card-title {
+    color: var(--secondary-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.card-text {
+    color: var(--primary-text-color);
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+}
