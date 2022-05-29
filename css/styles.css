@@ -102,6 +102,10 @@ body {
   color: var(--logo-header);
 }
 
+.header-nav-link.current {
+  color: var(--hover-text-color);
+}
+
 .header-nav-link {
   padding-top: 32px;
   padding-bottom: 32px;
