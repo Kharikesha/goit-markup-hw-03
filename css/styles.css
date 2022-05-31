@@ -255,6 +255,10 @@ body {
   margin-top: calc(-1 * 30px);
 }
 
+.team-item > img {
+  display: block;
+}
+
 .team-item {
   justify-content: center;
   flex-basis: calc(100% / 4 - 30px);
