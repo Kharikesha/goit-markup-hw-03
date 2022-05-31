@@ -226,6 +226,10 @@ body {
 
 /* ----------------------Чем мы занимаемся----------------------- */
 
+.benefits {
+  padding-bottom: 94px;
+}
+
 .benefits-list {
   display: flex;
 }
@@ -266,6 +270,11 @@ body {
   margin-left: 30px;
 }
 
+.team-box {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 .team-specialist {
   color: var(--secondary-text-color);
   font-weight: 500;
@@ -273,7 +282,6 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   text-align: center;
-  margin-top: 30px;
   margin-bottom: 10px;
 }
 
@@ -282,7 +290,6 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   text-align: center;
-  margin-bottom: 30px;
 }
 
 /* ----------------------Футер----------------------- */
@@ -299,6 +306,7 @@ body {
 
 .footer .logo {
   margin-bottom: 20px;
+  padding: 0px;
 }
 
 .footer .address {
@@ -394,8 +402,16 @@ body {
   display: block;
 }
 
+.card-box {
+  padding: 20px 24px;
+  background: #ffffff;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+}
+
 .card-title {
-  padding: 20px 24px 4px;
+  margin-bottom: 4px;
   color: var(--secondary-text-color);
   font-weight: 700;
   font-size: 18px;
@@ -404,16 +420,8 @@ body {
 }
 
 .card-text {
-  padding: 0px 24px 20px;
   color: var(--primary-text-color);
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
-}
-
-.card-border {
-  background: #ffffff;
-  border-left: 1px solid #eeeeee;
-  border-right: 1px solid #eeeeee;
-  border-bottom: 1px solid #eeeeee;
 }
